@@ -1,0 +1,41 @@
+css
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #333333;
+  background-color: #ffffff;
+  line-height: 1.6;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.lien ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+    list-style: none; 
+}
+
+.lien ul li a {
+    text-decoration: none;
+}
+
+.conviviale{
+    display: flex;
+}
+
