@@ -65,6 +65,9 @@ body {
     object-fit: cover;
 }
 
+#menu{
+    margin-bottom: 50px;
+}
 .saveurs{
     display: flex;
     justify-content: center;
@@ -80,3 +83,142 @@ body {
   gap: 20px;
 }
 
+.carousel{
+    width: 100%;
+    height: 400px;
+    max-width: 700px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+.diapo{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5 ease-in-out;
+}
+
+.diapo img{
+    height: 400px;
+    min-width: 100%;
+    object-fit: cover;
+}
+
+.fleche-precedent,
+.fleche-suivant{
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 2;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.fleche-precedent{
+    left: 15px;
+}
+.fleche-suivant{
+    right: 15px;
+}
+
+.points{
+   display: flex;
+   position: absolute;
+   bottom: 15px;
+   left: 50% ;
+   gap: 15px;
+   transform: translateX(-50%);
+   z-index: 2;
+}
+
+.point {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+}
+
+.avis{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#avis{
+    margin-bottom: 50px;
+}
+
+.espace{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 25px;
+}
+
+.carteavis1{
+    border-radius: 8px;
+    background-color: rgba(114, 23, 23, 0.6);
+}
+
+.profil{
+    display: flex;
+    justify-content: center;
+}
+
+.nom{
+    text-align: center;
+}
+
+.comment{
+    text-align: center;
+}
+
+.etoile{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.about{
+    display: flex;
+}
+
+.imageabout img{
+    height: 100%;
+    width: 100%;
+    min-width: 700px;
+    max-height: 500px;
+    object-fit: cover;
+    
+}
+.histoire h1 , 
+.histoire p {
+    text-align: center;   
+}
+
+.recensement{
+    display: flex;
+    justify-content: space-around;
+}
+
+.plats{
+    display: flex;
+    flex-direction: column;
+}
+.experience{
+    display: flex;
+    flex-direction: column;
+}
+.authentique{
+    display: flex;
+    flex-direction: column;
+}
