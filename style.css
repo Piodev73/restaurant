@@ -235,3 +235,40 @@ body {
   gap: 8px;
   margin-bottom: 8px;
 }
+
+.details h2,
+.details p{
+    color: #ffffff;
+}
+
+.details{
+    width: 500px;
+}
+
+.contact-liste img {
+  filter: brightness(0) invert(1);
+  opacity: 0.3;
+}
+
+.contact-liste div {
+    color: #ffffff;
+}
+
+.reference h2 {
+    color: #ffffff;
+}
+
+.follow h2{
+    color: #ffffff;
+}
+
+.follow p {
+  filter: brightness(0) invert(1);
+  opacity: 0.3;
+}
+
+
+#contact{
+    background-color: black;
+    padding: 80px 95px;
+}
