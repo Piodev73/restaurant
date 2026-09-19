@@ -222,3 +222,16 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.ligne{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr ;
+   
+}
+
+.contact-liste div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
