@@ -163,11 +163,6 @@ body {
     gap: 25px;
 }
 
-.carteavis1{
-    border-radius: 8px;
-    background-color: rgba(114, 23, 23, 0.6);
-}
-
 .profil{
     display: flex;
     justify-content: center;
@@ -304,4 +299,114 @@ body {
     background-color: #222;
     height: 410px;
     padding: 80px 95px;
+}
+
+#avis{
+    padding: 80px 95px;
+}
+
+.carteavis1{
+    padding: 25px 20px;
+    background-color: #ffffff;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+    transition: transform 0.3s ease , box-shadow 0.3s ease;
+}
+.carteavis1:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 13px 20px rgba(0, 0, 0, 0.20);
+}
+.carteavis1 p{
+    text-align: center;
+}
+.carteavis1 .un,
+.carteavis1 .deux,
+.carteavis1 .trois,
+.carteavis1 .quatre,
+.carteavis1 .cinq{
+    fill: rgb(201, 201, 0);
+}
+
+.carteavis2{
+    padding: 25px 20px;
+    background-color: #ffffff;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+    transition: transform 0.3s ease , box-shadow 0.3s ease;
+}
+.carteavis2:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 13px 20px rgba(0, 0, 0, 0.20);
+}
+.carteavis2 p{
+    text-align: center;
+}
+.carteavis2 .un,
+.carteavis2 .deux,
+.carteavis2 .trois,
+.carteavis2 .quatre{
+    fill: rgb(201, 201, 0);
+}
+
+.carteavis3{
+    padding: 25px 20px;
+    background-color: #ffffff;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+    transition: transform 0.3s ease , box-shadow 0.3s ease;
+}
+.carteavis3:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 13px 20px rgba(0, 0, 0, 0.20);
+}
+.carteavis3 p{
+    text-align: center;
+}
+.carteavis3 .un,
+.carteavis3 .deux,
+.carteavis3 .trois{
+    fill: rgb(201, 201, 0);
+}
+
+.carteavis4{
+    padding: 25px 20px;
+    background-color: #ffffff;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+    transition: transform 0.3s ease , box-shadow 0.3s ease;
+}
+.carteavis4:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 13px 20px rgba(0, 0, 0, 0.20);
+}
+.carteavis4 p{
+    text-align: center;
+}
+.carteavis4 .un,
+.carteavis4 .deux,
+.carteavis4 .trois,
+.carteavis4 .quatre{
+    fill: rgb(201, 201, 0);
+}
+
+.carteavis5{
+    padding: 25px 20px;
+    background-color: #ffffff;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+    transition: transform 0.3s ease , box-shadow 0.3s ease;
+}
+.carteavis5:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 13px 20px rgba(0, 0, 0, 0.20);
+}
+.carteavis5 p{
+    text-align: center;
+}
+.carteavis5 .un,
+.carteavis5 .deux,
+.carteavis5 .trois,
+.carteavis5 .quatre,
+.carteavis5 .cinq{
+    fill: rgb(201, 201, 0);
 }
