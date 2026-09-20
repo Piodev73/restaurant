@@ -9,7 +9,7 @@ css
 body {
   font-family: 'Poppins', sans-serif;
   color: #333333;
-  background-color: #ffffff;
+  background-color: #fffAf5;
   line-height: 1.6;
 }
 
@@ -304,6 +304,10 @@ body {
 #avis{
     padding: 80px 95px;
 }
+#avis h1{
+    font-weight: bolder;
+    text-decoration: underline;
+}
 
 .carteavis1{
     padding: 25px 20px;
@@ -410,3 +414,43 @@ body {
 .carteavis5 .cinq{
     fill: rgb(201, 201, 0);
 }
+
+#menu{
+    padding: 80px 55px;
+}
+#menu h2{
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.image1,.image2,.image3,.image4,
+.image5,.image6,.image7,.image8{
+    position: relative;
+}
+
+.prix1,.prix2,.prix3,.prix4,
+.prix5,.prix6,.prix7,.prix8{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: orangered;
+    color: white;
+    border-radius: 50%;
+    padding: 5px 10px;
+}
+
+.carte1,.carte2,.carte3,.carte4,
+.carte5,.carte6,.carte7,.carte8{
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.10);
+    transition: transform 0.3s ease , box-shadow 0.3s ease;
+}
+.carte1:hover,.carte2:hover,.carte3:hover,.carte4:hover,
+.carte5:hover,.carte6:hover,.carte7:hover,.carte8:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.10);
+}
+
