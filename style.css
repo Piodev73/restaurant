@@ -454,3 +454,45 @@ body {
     box-shadow: 0 12px 20px rgba(0, 0, 0, 0.10);
 }
 
+@keyframes apparition {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+#acceuil{
+    padding: 40px 75px ;
+}
+
+.titre h1{
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    animation: apparition 1s ease forwards;
+}
+.titre p{
+   animation: apparition 1.6s ease forwards; 
+}
+.papille{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 6px;
+}
+
+.nav{
+    box-shadow: 0 0 20px rgba(0,0,0,0.10);
+    padding: 0 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #ffffff;
+}
+
+.lien ul li a{
+    color: #000;
+    transition: color 0.2s ease;
+}
+
+.lien ul li a:hover{
+    color: orangered;
+}
+
