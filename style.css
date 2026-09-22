@@ -6,6 +6,10 @@ css
 
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
   color: #333333;
@@ -500,3 +504,21 @@ body {
     color: orangered;
 }
 
+.imageabout {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+.imageabout.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.copyright p {
+    text-align: center;
+    color: #bbbbbb;
+}
+
+.copyright{
+    margin-top: 50px;
+}

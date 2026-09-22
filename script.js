@@ -34,3 +34,15 @@ points.forEach((point,i)=>{
 
 setInterval(suivant,2500)
 
+
+const elements = document.querySelector('.imageabout')
+
+const observer = new IntersectionObserver((entries)=>{
+    entries.forEach(entry=>{
+        if(entry.isIntersecting){
+            entry.target.classList.add('visible')
+        }
+    })
+})
+
+observer.observe(elements)
