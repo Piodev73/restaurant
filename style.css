@@ -522,3 +522,58 @@ body {
 .copyright{
     margin-top: 50px;
 }
+
+@media(max-width:768px){
+    .logo span{
+        font-size: 14px;
+    }
+    .lien ul{
+        margin: 14px 0;
+        flex-wrap: wrap;
+    }
+
+    .conviviale{
+        flex-direction: column;
+    }
+
+    .conviviale h1{
+        text-align: center;
+    }
+
+    .carte {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    #menu{
+        padding: 80px 70px ;
+    }
+
+    #avis{
+        padding: 80px 70px ;
+    }
+
+    .espace{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 25px;
+    }
+
+    .about{
+        display: flex;
+        flex-direction: column;
+    }
+    #about{
+        padding: 80px 15px;
+    }
+
+    .histoire h1{
+        text-align: center;
+    }
+
+    .ligne{
+        display: flex;
+        flex-direction: column;
+    }
+}
