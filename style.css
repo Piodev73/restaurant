@@ -291,6 +291,12 @@ body {
     padding: 80px 95px;
 }
 
+.titre2{
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
+}
+
 #about {
     padding: 80px 95px;
 }
@@ -467,6 +473,7 @@ body {
   to { opacity: 1; transform: translateY(0); }
 }
 
+
 #acceuil{
     padding: 40px 75px ;
 }
@@ -523,10 +530,78 @@ body {
     margin-top: 50px;
 }
 
+@media(max-width:1300px){
+    #menu{
+        padding: 60px 20px;
+    }
+}
+
+@media(max-width:1265px){
+    #menu{
+        padding: 60px 20px;
+    }
+}
+
+
+@media(max-width:1035px){
+    #acceuil{
+        padding: 40px 20px;
+    }
+    .lien ul{
+        margin: 14px 0;
+        flex-wrap: wrap;
+    }
+
+    .conviviale{
+        flex-direction: column;
+    }
+    .conviviale h1{
+        text-align: center;
+    }
+
+    .carte {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    #avis{
+        padding: 60px 20px;
+    }
+
+    .espace{
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    #about{
+        padding:50px 20px ;
+    }
+
+    .about{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .histoire h1{
+        text-align: center;
+    }
+
+    #contact{
+        padding: 60px 10px ;
+    }
+
+    .details{
+        width: 350px;
+    }
+
+}
+
+
 @media(max-width:768px){
     .logo span{
         font-size: 14px;
     }
+
     .lien ul{
         margin: 14px 0;
         flex-wrap: wrap;
@@ -556,7 +631,7 @@ body {
 
     .espace{
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(2,1fr);
         gap: 25px;
     }
 
@@ -577,3 +652,66 @@ body {
         flex-direction: column;
     }
 }
+
+
+@media (min-width: 355px) and (max-width:480px){
+    #acceuil{
+        padding: 40px 20px ;
+    }
+
+    .lien ul{
+        padding: 0 0 0 20px;
+    }
+
+    .cercle{
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1/1;
+    }
+
+    #menu{
+        padding: 50px 20px;
+    }
+
+    #menu h2{
+        text-align: center;
+    }
+
+    .carte{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .carte1,.carte2,.carte3,.carte4,.carte5,.carte6,.carte7,.carte8{
+        text-align: center;
+    }
+
+    #galerie{
+        padding: 40px 20px;
+    }
+
+    #avis{
+        padding: 50px 20px;
+    }
+
+    .espace{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .imageabout img{
+        min-width: 100%;
+    }
+
+    .chiffres{
+        margin-left: 0;
+    }
+
+    #contact{
+        padding: 60px 20px;
+    }
+    
+    .details{
+        width: 100%;
+    }
+}
+
+
