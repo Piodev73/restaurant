@@ -534,6 +534,18 @@ body {
     #menu{
         padding: 60px 20px;
     }
+
+    #about{
+        padding: 60px 10px;
+    }
+    #avis{
+        padding: 60px 10px;
+    }
+    #acceuil{
+        padding: 60px 20px;
+    }
+
+    
 }
 
 @media(max-width:1265px){
